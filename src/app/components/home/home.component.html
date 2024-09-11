@@ -1,0 +1,103 @@
+<main class container>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="/portfolio">Portfolio</a></li>
+      <li><a routerLink="/Contacts">Contacts</a></li>
+    </ul>
+  </nav>
+
+
+<div class="home">
+  <div class="image-container">
+    <img src="src/assets/image/charityimage.jpg" alt="">
+
+  </div>
+  
+
+  <h1>Welcome to My Portfolio</h1>
+  <p>Hi, I'm mthombeni charity, i am web developer who is passionate about creating web apps and application and open to learn new programming languages</p>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 charity mthombeni. All rights reserved.</p>
+</footer>
+<style>
+ .home {
+  text-align: center;
+  padding: 50px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+} 
+  /* Global Styles: styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f0e1; /* Light nude brown background */
+  color: #3e2723; /* Dark brown text */
+}
+
+nav {
+  background-color: #8d6e63; /* Nude brown */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #8d6e63;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+.image-container img {
+  width: 150px;  /* Adjust the size as needed */
+  height: 150px; /* Ensure the width and height are the same */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  border: 2px solid #ccc; /* Optional: adds a border around the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for depth */
+}
+
+</style>
+
+</main>
+  
+
+
