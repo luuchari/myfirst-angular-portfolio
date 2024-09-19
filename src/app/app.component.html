@@ -1,10 +1,21 @@
 
-<main class container>
-  <app-home></app-home>
-  <app-about></app-about>
-  <app-portfolio></app-portfolio>
-  <app-contacts></app-contacts>
-</main>
-  
-<router-outlet></router-outlet>
+<nav class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">My Portfolio</a>
+    <ul class="nav-links">
+      <li><a routerLink="/">home</a></li>
+      <li><a routerLink="/about">about</a></li>
+      <li><a routerLink="/portfolio">portfolio</a></li>
+      <li><a routerLink="/contacts">contacts</a></li>
+    </ul>
+  </div>
+</nav>
+<footer>
+  <p>&copy; 2024 Charity Mthombeni | All rights reserved</p>
+</footer>
+
+<!-- Main Content -->
+<div class="main-container">
+  <router-outlet></router-outlet>
+</div>
 
