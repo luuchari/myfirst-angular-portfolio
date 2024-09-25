@@ -13,7 +13,7 @@ import { Component, SimpleChange, SimpleChanges } from '@angular/core';
   styleUrl:'./app.component.css',
 })
 export class AppComponent{
-  title(title:any){
+title(_title:any){
     throw new Error('method not implemented.');
   }
   ngOnChanges(changes : SimpleChanges){

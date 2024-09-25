@@ -21,6 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets/image/charityimage.jpg",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -84,7 +85,8 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
+            "assets":[
+              "src/assets/images.jpg",
               {
                 "glob": "**/*",
                 "input": "public"
